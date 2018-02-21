@@ -1,1 +1,0 @@
-# empact.cc
