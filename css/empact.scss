@@ -118,12 +118,45 @@ header{
   }
 }
 
-.story{
+//.story{
+//  h2{
+//    font-family: $source-serif;
+//  }
+//}
+
+.story-content{
   margin-top: 50px;
   p{
     font-size: 24px;
     font-family: $open-sans;
     line-height: 32px;
+  }
+}
+
+.join{
+  h1{
+    color: $minty;
+  }
+  p{
+    font-size: 26px;
+    font-family: $open-sans;
+    color: $minty;
+    font-weight: $semi-bold;
+  }
+}
+
+.button{
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  background-color: $minty;
+  color: white;
+  font-weight: $bold;
+  font-family: $open-sans;
+  font-size: 26px;
+  &:hover{
+    background-color: $minty-hover;
   }
 }
 
