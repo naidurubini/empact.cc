@@ -14,7 +14,8 @@ h4 {
 
 header {
   padding: 30px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 50px; }
   header .nav-container {
     float: right; }
     header .nav-container .nav-item {
@@ -27,7 +28,8 @@ header {
     margin-top: 50px; }
     header .name h1 {
       font-size: 90px;
-      color: #47B38D; }
+      color: #47B38D;
+      font-weight: 600; }
 
 .minty {
   background-color: #47B38D;
