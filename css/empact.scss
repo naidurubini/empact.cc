@@ -1,0 +1,203 @@
+--- 
+  # Front matter comment to ensure Jekyll properly reads file. 
+--- 
+
+//******* Variables
+
+// Numbers
+$color-percentage: 5%;
+
+// Colors
+$minty: #47B38D;
+$minty-light: rgba(71,179,141,.1);
+$minty-grey: #9B9B9B;
+$minty-hover: #41A280;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
+$source-serif: 'Source Serif Pro', serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+$open-sans: 'Open Sans', sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+//******* End of Variables
+
+body {
+  font-family: $source-serif;
+  color: $minty-grey;
+  font-weight: $regular;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $source-serif;
+//  padding-left: 10px;
+}
+
+//Header
+header{
+  padding: 30px;
+  font-family: $open-sans;
+  margin-bottom: 50px;
+  
+  .nav-container{
+    float: right;
+    .nav-item{
+      font-size: 24px;
+      margin-left: 10px;
+      margin-right: 10px;
+    } 
+    a{
+      color: $minty-grey; 
+    }
+  }
+  
+  .name{
+    margin-top: 50px;
+    h1{
+      font-size: 90px;
+      color: $minty;
+      font-weight: $semi-bold;
+    }
+  }
+}
+//End of Header
+
+.minty{
+  background-color: $minty;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+  margin-bottom: 100px;
+  h2{
+    line-height: 50px;
+    font-family: $open-sans;
+  }
+}
+
+.features{
+  h3{
+    color: $minty;
+    font-size: 42px;
+    font-weight: $semi-bold;
+  }
+  p{
+    font-size: 22px;
+    font-family: $open-sans;
+    line-height: 32px;
+  }
+  .feature{
+    margin-bottom: 60px;
+  }
+}
+
+.minty-light{
+  background-color: $minty-light;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  h2{
+    font-family: $open-sans;
+    line-height: 50px;
+  }
+}
+
+.movements{
+  margin-top: 50px;
+  p{
+    font-size: 28px;
+    font-family: $open-sans;
+    font-weight: $bold;
+  }
+}
+
+//.story{
+//  h2{
+//    font-family: $source-serif;
+//  }
+//}
+
+.story-content{
+  margin-top: 50px;
+  p{
+    font-size: 24px;
+    font-family: $open-sans;
+    line-height: 32px;
+  }
+}
+
+.join{
+  h1{
+    color: $minty;
+  }
+  p{
+    font-size: 26px;
+    font-family: $open-sans;
+    color: $minty;
+    font-weight: $semi-bold;
+  }
+}
+
+.button{
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  background-color: $minty;
+  color: white;
+  font-weight: $bold;
+  font-family: $open-sans;
+  font-size: 26px;
+  &:hover{
+    background-color: $minty-hover;
+  }
+}
+
+//Footer
+.social {
+  width: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social:hover {
+  opacity: 0.8;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: $minty-light;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+//End of Footer
+
+//******* Foundation Overrides
+.column:last-child:not(:first-child),
+.columns:last-child:not(:first-child) {
+  float: left;
+}
+//******* End of Foundation Overrides
+
+
+//******* Mobile Styling
+
+// Measurments pulled from foundation css file
+// Mobile Styling
+@media screen and (max-width: 40em) {
+  
+}
+
+// Tablet Styling
+@media screen and (max-width: 64em) {
+  
+}
+//******* End of Mobile Styling

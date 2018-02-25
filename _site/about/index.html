@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>About</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href=" /css/foundation.css"/>
+  <link rel="stylesheet" href=" /css/empact.css"/>
+  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="alternate" type="application/rss+xml" title="Empact" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header>
+  <div class="row">
+    <div class="columns small-12">
+      <div class="nav-container">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#story" class="nav-item">Our Story</a>
+        <a href="#join" class="nav-item">Join</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="name">
+        <h1>empact</h1>
+        <h2>empathy, action, impact</h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">About</h1>
+  </header>
+
+  <div class="post-content">
+    <p>about</p>
+
+  </div>
+
+</article>
+
+
+    <footer class="site-footer">
+    
+    <div class="row">
+        <div class="small-8 small-centered large-6 large-centered">         
+
+            <a href="mailto:email@email.com">
+                <img class="social" src="/img/social/mail.svg"></a>
+            
+            <a target="_blank" href="https://twitter.com/EmpactHQ">
+                <img class="social" style="width:60px; margin-right:-5px;" src="/img/social/twitter.svg"></a>
+            
+          <a target="_blank" href="https://www.instagram.com/empacthq/">
+                <img class="social" style="width:60px; margin-right:-15px;" src="/img/social/instagram.svg"></a>
+            
+        </div>
+    </div>
+    
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<script>
+//google analytics here
+</script>
+
+
+  </body>
+
+</html>

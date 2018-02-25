@@ -1,0 +1,50 @@
+<footer class="site-footer">
+    
+    <div class="row">
+        <div class="small-8 small-centered large-6 large-centered">         
+
+            <a href="mailto:email@email.com">
+                <img class="social" src="{{'/img/social/mail.svg'| prepend: site.baseurl }}"></a>
+            
+            <a target="_blank" href="https://twitter.com/EmpactHQ">
+                <img class="social" style="width:60px; margin-right:-5px;" src="{{'/img/social/twitter.svg'| prepend: site.baseurl }}"></a>
+            
+          <a target="_blank" href="https://www.instagram.com/empacthq/">
+                <img class="social" style="width:60px; margin-right:-15px;" src="{{'/img/social/instagram.svg'| prepend: site.baseurl }}"></a>
+            
+        </div>
+    </div>
+    
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<script>
+//google analytics here
+</script>
