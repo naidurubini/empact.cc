@@ -44,12 +44,19 @@ h4 {
 //Header
 header{
   padding: 30px;
-  font-family: 
-}
-
-.site-header{
-  border-top: 0;
-  border-bottom: 0;
+  font-family: $open-sans;
+  
+  .nav-container{
+    float: right;
+    .nav-item{
+      font-size: 24px;
+      margin-left: 10px;
+      margin-right: 10px;
+    } 
+    a{
+      color: $minty-grey;  
+    }
+  }
 }
 //End of Header
 

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 body {
   font-family: "Source Serif Pro", serif;
   color: #9B9B9B;
@@ -12,11 +13,16 @@ h4 {
   padding-left: 10px; }
 
 header {
-  padding: 30px; }
-
-.site-header {
-  border-top: 0;
-  border-bottom: 0; }
+  padding: 30px;
+  font-family: "Open Sans", sans-serif; }
+  header .nav-container {
+    float: right; }
+    header .nav-container .nav-item {
+      font-size: 24px;
+      margin-left: 10px;
+      margin-right: 10px; }
+    header .nav-container a {
+      color: #9B9B9B; }
 
 .social {
   width: 60px;
