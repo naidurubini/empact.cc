@@ -11,6 +11,9 @@ h4 {
   font-family: "Source Serif Pro", serif;
   padding-left: 10px; }
 
+header {
+  padding: 30px; }
+
 .site-header {
   border-top: 0;
   border-bottom: 0; }
