@@ -23,6 +23,11 @@ header {
       margin-right: 10px; }
     header .nav-container a {
       color: #9B9B9B; }
+  header .name {
+    margin-top: 50px; }
+    header .name h1 {
+      font-size: 90px;
+      color: #47B38D; }
 
 .social {
   width: 60px;
