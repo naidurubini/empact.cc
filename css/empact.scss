@@ -1,0 +1,57 @@
+--- 
+  # Front matter comment to ensure Jekyll properly reads file. 
+--- 
+
+//******* Variables
+
+// Numbers
+$color-percentage: 5%;
+
+// Colors
+$minty: #47B38D;
+$minty-grey: #9B9B9B;
+$minty-hover: #41A280;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
+$source-serif: 'Source Serif Pro', serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+//******* End of Variables
+
+body {
+  font-family: $source-serif;
+  color: $minty-grey;
+  font-weight: $regular;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $source-serif;
+  padding-left: 10px;
+}
+
+//******* Foundation Overrides
+.column:last-child:not(:first-child),
+.columns:last-child:not(:first-child) {
+  float: left;
+}
+//******* End of Foundation Overrides
+
+
+//******* Mobile Styling
+
+// Measurments pulled from foundation css file
+// Mobile Styling
+@media screen and (max-width: 40em) {
+  
+}
+
+// Tablet Styling
+@media screen and (max-width: 64em) {
+  
+}
+//******* End of Mobile Styling

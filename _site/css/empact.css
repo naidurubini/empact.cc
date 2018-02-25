@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700");
+body {
+  font-family: "Source Serif Pro", serif;
+  color: #9B9B9B;
+  font-weight: 400; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Source Serif Pro", serif;
+  padding-left: 10px; }
+
+.column:last-child:not(:first-child),
+.columns:last-child:not(:first-child) {
+  float: left; }
