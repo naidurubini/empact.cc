@@ -1,38 +1,22 @@
 <footer class="site-footer">
+    
+    <div class="row">
+        <div class="small-8 small-centered large-6 large-centered">         
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+            <a href="mailto:email@email.com">
+                <img class="social" src="{{'/img/social/mail.svg'| prepend: site.baseurl }}"></a>
+            
+            <a target="_blank" href="https://twitter.com/EmpactHQ">
+                <img class="social" style="width:60px; margin-right:-5px;" src="{{'/img/social/twitter.svg'| prepend: site.baseurl }}"></a>
+            
+          <a target="_blank" href="https://www.instagram.com/empacthq/">
+                <img class="social" style="width:60px; margin-right:-15px;" src="{{'/img/social/instagram.svg'| prepend: site.baseurl }}"></a>
+            
+        </div>
     </div>
-
-  </div>
-
+    
 </footer>
+
+<script>
+//google analytics here
+</script>

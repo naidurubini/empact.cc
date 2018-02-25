@@ -39,6 +39,23 @@ h4 {
   border-bottom: 0;
 }
 
+.social {
+  width: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social:hover {
+  opacity: 0.8;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #ececec;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 //******* Foundation Overrides
 .column:last-child:not(:first-child),
