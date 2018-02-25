@@ -103,7 +103,6 @@ header{
   background-color: $minty-light;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-bottom: 100px;
   h2{
     font-family: $open-sans;
     line-height: 50px;
@@ -116,6 +115,15 @@ header{
     font-size: 28px;
     font-family: $open-sans;
     font-weight: $bold;
+  }
+}
+
+.story{
+  margin-top: 50px;
+  p{
+    font-size: 24px;
+    font-family: $open-sans;
+    line-height: 32px;
   }
 }
 
