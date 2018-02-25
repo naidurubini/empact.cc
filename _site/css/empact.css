@@ -9,8 +9,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Source Serif Pro", serif;
-  padding-left: 10px; }
+  font-family: "Source Serif Pro", serif; }
 
 header {
   padding: 30px;
@@ -35,9 +34,38 @@ header {
   background-color: #47B38D;
   padding-top: 60px;
   padding-bottom: 60px;
-  color: white; }
+  color: white;
+  margin-bottom: 100px; }
   .minty h2 {
+    line-height: 50px;
+    font-family: "Open Sans", sans-serif; }
+
+.features h3 {
+  color: #47B38D;
+  font-size: 42px;
+  font-weight: 600; }
+.features p {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 32px; }
+.features .feature {
+  margin-bottom: 60px; }
+
+.minty-light {
+  background-color: rgba(71, 179, 141, 0.1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 100px; }
+  .minty-light h2 {
+    font-family: "Open Sans", sans-serif;
     line-height: 50px; }
+
+.movements {
+  margin-top: 50px; }
+  .movements p {
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700; }
 
 .social {
   width: 60px;
