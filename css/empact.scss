@@ -70,6 +70,12 @@ header{
 
 .minty{
   background-color: $minty;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+  h2{
+    line-height: 50px;
+  }
 }
 
 //Footer

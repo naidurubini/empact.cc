@@ -30,7 +30,12 @@ header {
       color: #47B38D; }
 
 .minty {
-  background-color: #47B38D; }
+  background-color: #47B38D;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white; }
+  .minty h2 {
+    line-height: 50px; }
 
 .social {
   width: 60px;
