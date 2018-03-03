@@ -160,6 +160,12 @@ header{
   }
 }
 
+input[type=email]{
+  border-radius: 8px;
+  height: 3rem;
+  font-size: 20px;
+}
+
 //Footer
 .social {
   width: 60px;
