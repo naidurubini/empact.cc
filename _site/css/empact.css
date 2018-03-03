@@ -94,6 +94,11 @@ header {
   .button:hover {
     background-color: #41A280; }
 
+input[type=email] {
+  border-radius: 8px;
+  height: 3rem;
+  font-size: 20px; }
+
 .social {
   width: 60px;
   padding-left: 10px;
