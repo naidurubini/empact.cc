@@ -99,6 +99,31 @@ input[type=email] {
   height: 3rem;
   font-size: 20px; }
 
+#mc_embed_signup form {
+  padding: 0; }
+
+#mc_embed_signup input.button {
+  width: auto;
+  margin: 0;
+  min-width: auto; }
+
+#mc_embed_signup input.email {
+  border-radius: 8px; }
+
+#mc_embed_signup .button {
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  background-color: #47B38D;
+  color: white;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  height: auto; }
+  #mc_embed_signup .button:hover {
+    background-color: #41A280; }
+
 .social {
   width: 60px;
   padding-left: 10px;
