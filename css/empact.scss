@@ -165,6 +165,59 @@ input[type=email]{
   height: 3rem;
   font-size: 20px;
 }
+//MailChimp Overrides
+#mc_embed_signup form{
+  padding: 0;
+}
+
+#mc_embed_signup input.button{
+  width: auto;
+  margin: 0;
+  min-width: auto;
+}
+
+#mc_embed_signup input.email{
+  border-radius: 8px;
+}
+
+#mc_embed_signup .button{
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  background-color: $minty;
+  color: white;
+  font-weight: $bold;
+  font-family: $open-sans;
+  font-size: 26px;
+  height: auto;
+  &:hover{
+    background-color: $minty-hover;
+  }
+}
+
+//#mc_embed_signup .button{
+//  clear: both;
+//  background-color: ;
+//  border: 0;
+//  border-radius: 4px;
+//  letter-spacing: none;
+//  color: #FFFFFF;
+//  cursor: pointer;
+//  display: inline-block;
+//  font-size: 15px;
+//  height: 32px;
+//  line-height: 32px;
+//  margin: 0;
+//  padding: 0;
+//  text-align: center;
+//  text-decoration: none;
+//  vertical-align: top;
+//  white-space: nowrap;
+//  width: auto;
+//  transition: all 0.23s ease-in-out 0s;
+//}
+//End of MailChimp Overrides
 
 //Footer
 .social {
