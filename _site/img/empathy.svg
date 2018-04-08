@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="956px" height="956px" viewBox="0 0 956 956" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 4</title>
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/phone</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Artboard-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-10" transform="translate(248.000000, 184.000000)" stroke="#47B38D">
-            <rect id="Rectangle-7" stroke-width="20" x="10" y="10" width="337" height="568" rx="47"></rect>
-            <rect id="Rectangle-7-Copy" stroke-width="20" x="60" y="106" width="238" height="376" rx="18"></rect>
-            <path d="M373.061842,334.687622 L290.627991,379.02039 L290.55905,296.590769 C263.116086,270.661231 245.996037,233.954399 245.996037,193.255795 C245.996037,114.689664 309.79546,50.9992296 388.496037,50.9992296 C467.196613,50.9992296 530.996037,114.689664 530.996037,193.255795 C530.996037,271.821927 467.196613,335.512361 388.496037,335.512361 C383.281136,335.512361 378.131662,335.232714 373.061842,334.687622 Z" id="Combined-Shape" stroke-width="20" fill="#FFFFFF" transform="translate(388.496037, 215.009810) rotate(22.000000) translate(-388.496037, -215.009810) "></path>
-            <circle id="Oval-8" stroke-width="10" cx="339.5" cy="193.5" r="19.5"></circle>
-            <circle id="Oval-8-Copy" stroke-width="10" cx="395.5" cy="193.5" r="19.5"></circle>
-            <circle id="Oval-8-Copy-2" stroke-width="10" cx="451.5" cy="193.5" r="19.5"></circle>
-        </g>
+    <g id="icon/phone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-7" stroke="#FCBF2E" stroke-width="20" x="258" y="194" width="337" height="568" rx="47"></rect>
+        <rect id="Rectangle-7-Copy" stroke="#FCBF2E" stroke-width="20" x="308" y="290" width="238" height="376" rx="18"></rect>
+        <path d="M621.061842,518.687622 L538.627991,563.02039 L538.55905,480.590769 C511.116086,454.661231 493.996037,417.954399 493.996037,377.255795 C493.996037,298.689664 557.79546,234.99923 636.496037,234.99923 C715.196613,234.99923 778.996037,298.689664 778.996037,377.255795 C778.996037,455.821927 715.196613,519.512361 636.496037,519.512361 C631.281136,519.512361 626.131662,519.232714 621.061842,518.687622 Z" id="Combined-Shape" stroke="#FCBF2E" stroke-width="20" fill="#FFFFFF" transform="translate(636.496037, 399.009810) rotate(22.000000) translate(-636.496037, -399.009810) "></path>
+        <circle id="Oval-8" stroke="#FCBF2E" stroke-width="10" cx="587.5" cy="377.5" r="19.5"></circle>
+        <circle id="Oval-8-Copy" stroke="#FCBF2E" stroke-width="10" cx="643.5" cy="377.5" r="19.5"></circle>
+        <circle id="Oval-8-Copy-2" stroke="#FCBF2E" stroke-width="10" cx="699.5" cy="377.5" r="19.5"></circle>
     </g>
 </svg>
