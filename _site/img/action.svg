@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="956px" height="956px" viewBox="0 0 956 956" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 4 Copy</title>
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/people</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Artboard-4-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-11" transform="translate(130.000000, 146.000000)" stroke="#47B38D" stroke-width="20">
+    <g id="icon/people" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(130.000000, 146.000000)" stroke="#FCBF2E" stroke-width="20">
             <path d="M326.004381,645 C326.001462,644.652886 326,644.305427 326,643.957627 C326,576.60229 380.845118,522 448.5,522 C516.154882,522 571,576.60229 571,643.957627 C571,644.305427 570.998538,644.652886 570.995619,645 L326.004381,645 Z" id="Combined-Shape"></path>
             <circle id="Oval-5-Copy" cx="448" cy="427" r="83"></circle>
             <path d="M127.004381,645 C127.001462,644.652886 127,644.305427 127,643.957627 C127,576.60229 181.845118,522 249.5,522 C317.154882,522 372,576.60229 372,643.957627 C372,644.305427 371.998538,644.652886 371.995619,645 L127.004381,645 Z" id="Combined-Shape" fill="#FFFFFF"></path>
             <circle id="Oval-5-Copy" fill="#FFFFFF" cx="249" cy="427" r="83"></circle>
-            <path d="M377.159773,229 L377.159773,125.083301 L421.199508,125.083301 L348.499341,10.7358765 L275.799175,125.083301 L308.952003,125.083301 L318.952003,125.083301 L318.952003,229 L377.159773,229 Z" id="Combined-Shape"></path>
+            <path d="M377.159773,229 L377.159773,125.083301 L387.159773,125.083301 L421.199508,125.083301 L348.499341,10.7358765 L275.799175,125.083301 L318.952003,125.083301 L318.952003,229 L377.159773,229 Z" id="Combined-Shape"></path>
             <path d="M594.226123,295.017765 L594.226123,191.101066 L638.265858,191.101066 L565.565692,76.7536412 L492.865526,191.101066 L536.018354,191.101066 L536.018354,295.017765 L594.226123,295.017765 Z" id="Combined-Shape-Copy" transform="translate(565.566325, 185.885070) rotate(-330.000000) translate(-565.566325, -185.885070) "></path>
             <path d="M160.093429,295.017791 L160.093429,191.101092 L204.133164,191.101092 L131.432998,76.7536672 L58.7328312,191.101092 L101.885659,191.101092 L101.885659,295.017791 L160.093429,295.017791 Z" id="Combined-Shape-Copy-2" transform="translate(131.433630, 185.885096) rotate(-30.000000) translate(-131.433630, -185.885096) "></path>
         </g>
