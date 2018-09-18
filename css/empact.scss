@@ -8,20 +8,19 @@
 $color-percentage: 5%;
 
 // Colors
+$mango: #fcbf2e;
+//$mango-light: 
+$mango-gradient:linear-gradient(291deg, #fdd53e, #fbaa1d);
+$dark-grey: #555555;
+
 $minty: #47B38D;
 $minty-light: rgba(71,179,141,.1);
 $minty-grey: #9B9B9B;
 $minty-hover: #41A280;
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
-$source-serif: 'Source Serif Pro', serif;
-$regular: 400;
-$semi-bold: 600;
-$bold: 700;
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-$open-sans: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+$mango-font: 'Nunito', sans-serif;
 $regular: 400;
 $semi-bold: 600;
 $bold: 700;
@@ -29,8 +28,8 @@ $bold: 700;
 //******* End of Variables
 
 body {
-  font-family: $source-serif;
-  color: $minty-grey;
+  font-family: $mango-font;
+  color: $dark-grey;
   font-weight: $regular;
 }
 
@@ -38,60 +37,58 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: $source-serif;
+  font-family: $mango-font;
 //  padding-left: 10px;
 }
 
 //Header
 header{
   padding: 30px;
-  font-family: $open-sans;
+  padding-bottom: 120px;
+  font-family: $mango-font;
   margin-bottom: 50px;
+  background: $mango-gradient;
+  color: white;
   
   .nav-container{
     float: right;
     .nav-item{
       font-size: 24px;
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-left: 30px;
+      margin-right: 30px;
     } 
     a{
-      color: $minty-grey; 
+      color: white; 
     }
   }
   
   .name{
-    margin-top: 50px;
+    margin-top: 130px;
     h1{
       font-size: 90px;
-      color: $minty;
+      color: $mango;
       font-weight: $semi-bold;
     }
   }
 }
 //End of Header
 
-.minty{
-  background-color: $minty;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  color: white;
+.one-liner{
+  color: $dark-grey;
+  line-height: 1.2;
+  margin-top: 50px;
   margin-bottom: 100px;
-  h2{
-    line-height: 50px;
-    font-family: $open-sans;
-  }
 }
 
 .features{
   h3{
-    color: $minty;
+    color: $mango;
     font-size: 42px;
     font-weight: $semi-bold;
   }
   p{
     font-size: 22px;
-    font-family: $open-sans;
+    font-family: $mango-font;
     line-height: 32px;
   }
   .feature{
@@ -99,49 +96,67 @@ header{
   }
 }
 
-.minty-light{
-  background-color: $minty-light;
+.mango-light{
+//  background-color: $mango-light;
   padding-top: 60px;
   padding-bottom: 60px;
   h2{
-    font-family: $open-sans;
+    font-family: $mango-font;
     line-height: 50px;
   }
+}
+
+.mango-movements{
+  background-image: $mango-gradient, url("../img/movements.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .movements{
   margin-top: 80px;
   p{
     font-size: 28px;
-    font-family: $open-sans;
+    font-family: $mango-font;
     font-weight: $bold;
   }
 }
 
-//.story{
-//  h2{
-//    font-family: $source-serif;
-//  }
-//}
+.story{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.story-title{
+  font-weight: $bold;
+}
 
 .story-content{
   margin-top: 50px;
   p{
     font-size: 24px;
-    font-family: $open-sans;
+    font-family: $mango-font;
     line-height: 32px;
   }
 }
 
 .join{
   h1{
-    color: $minty;
+    color: white;
+    text-align: left;
+    font-weight: $bold;
+    margin-top: 60px;
+    margin-bottom: 50px;
   }
   p{
     font-size: 26px;
-    font-family: $open-sans;
-    color: $minty;
+    font-family: $mango-font;
+    color: white;
     font-weight: $semi-bold;
+    text-align: left;
   }
 }
 
@@ -150,10 +165,10 @@ header{
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 8px;
-  background-color: $minty;
+  background-color: $mango;
   color: white;
   font-weight: $bold;
-  font-family: $open-sans;
+  font-family: $mango-font;
   font-size: 26px;
   &:hover{
     background-color: $minty-hover;
@@ -178,6 +193,11 @@ input[type=email]{
 
 #mc_embed_signup input.email{
   border-radius: 8px;
+  width: 100%;
+}
+
+#mc_embed_signup input{
+  border: none;
 }
 
 #mc_embed_signup .button{
@@ -185,10 +205,10 @@ input[type=email]{
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 8px;
-  background-color: $minty;
-  color: white;
+  background-color: white;
+  color: $mango;
   font-weight: $bold;
-  font-family: $open-sans;
+  font-family: $mango-font;
   font-size: 26px;
   height: auto;
   &:hover{
@@ -230,9 +250,13 @@ input[type=email]{
   opacity: 0.8;
 }
 
+.social-container{
+  margin-top: 100px;
+}
+
 footer {
   margin-top: 50px;
-  background-color: $minty-light;
+  background: $mango-gradient;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -273,22 +297,8 @@ footer {
       }
     }
   }
-  .minty{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 40px;
-    h2{
-      line-height: 30px;
-    }
-  }
-  .minty-light{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    h2{
-      line-height: 30px;
-    }
+  .mango-movements{
+    background-size: auto 100%;
   }
   .movements{
     margin-top: 30px;
@@ -300,7 +310,7 @@ footer {
     margin-top: 20px;
     p{
       font-size: 18px;
-      font-family: $open-sans;
+      font-family: $mango-font;
       line-height: 26px;
     }
     .story-text{

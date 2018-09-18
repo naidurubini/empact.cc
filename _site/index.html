@@ -45,7 +45,7 @@
   <div class="row">
     <div class="small-12 columns">
       <div class="name">
-        <h1>empact</h1>
+        <img src="img/logo.svg" alt="empact">
         <h2>empathy, action, impact</h2>
       </div>
     </div>
@@ -53,11 +53,9 @@
 </header>
 
 
-    <div class="minty">
-  <div class="row">
-    <div class="small-12 columns">
-      <h2>A social media for social good integrating empathy, action, and impact to solve the most pressing problems.</h2>
-    </div>
+    <div class="row">
+  <div class="small-12 columns">
+    <h2 class="one-liner">A social media for social good integrating empathy, action, and impact to solve the most pressing problems.</h2>
   </div>
 </div>
 
@@ -94,7 +92,7 @@
 </section>
 
 <section>
-  <div class="minty-light">
+  <div class="mango-movements">
     <div class="row">
       <div class="small-12 columns">
         <h2>We’re just getting started. Our focus is first on the below U.S. based movements. We will certainly be expanding.</h2>
@@ -126,10 +124,9 @@
 </section>
 
 <section class="story" id="story">
-  <div class="minty">
     <div class="row">
-      <div class="small-12 columns">
-        <h1>every movement starts with a story</h1>
+      <div class="small-12 columns story-title">
+        <h1>every movement starts with a story. here's our story.</h1>
       </div>
     </div>
     <div class="row story-content">
@@ -137,7 +134,7 @@
         <img src="/img/story.png" alt="Story Image">
       </div>
       <div class="small-12 medium-6 columns story-text">
-        <p>I met Ishitha when I was doing photographic fieldwork for the Bill & Melinda Gates Institue in New Delhi slums. She was bright-eyed and so curious about the world. Holding her in my arms, I realized that while she is likely just as attentive or promising as me or the next individual, her circumstances will likely prevent her from experiencing her full potential.</p>
+        <p>I met Ishitha when I was doing photographic fieldwork for the Bill & Melinda Gates Institue in New Delhi slums. She was bright-eyed and so curious about the world. Holding her in my arms, I realized that while she is likely just as attentive or promising as another individual, her circumstances may very well prevent her from experiencing her full potential.</p>
         
         <p>Those of us with privilege and opportunity are responsibile to create a world with more agency, dignity, and opportunity for all.</p>
         
@@ -145,44 +142,39 @@
         <p>Founder and CEO of Empact</p>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="join" id="join">
-  <div class="row">
-    <div class="small-12 columns">
-      <h1>Will you empact with us?</h1>
-    </div>
-    <div class="small-12 columns">
-      <div class="small-12 medium-8 columns">
-        <p>Join our newsletter. We will send updates of our progress and ways that you can get involved.</p>
-        <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
-        <form action="https://empact.us17.list-manage.com/subscribe/post?u=daf7dca406217473764651ca4&amp;id=e8ed302308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_daf7dca406217473764651ca4_e8ed302308" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-      </div>
-    </div>
-<!--
-    <div class="small-12 medium-4 columns">
-      <a href=""><div class="button">Let's Empact</div></a>
-    </div>
--->
-  </div>
 </section>
 
     <footer class="site-footer">
-    
+  
+  <section class="join" id="join">
     <div class="row">
-        <div class="small-8 small-centered large-6 large-centered">         
+      <div class="small-12 columns">
+        <h1>will you empact with us?</h1>
+      </div>
+      <div class="small-12 columns">
+        <div class="small-12 medium-6 columns">
+          <p>Join our newsletter. We will send updates of our progress and ways that you can get involved.</p>
+  <!--End mc_embed_signup-->
+        </div>
+        <div class="small-12 medium-6 columns">
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="https://empact.us17.list-manage.com/subscribe/post?u=daf7dca406217473764651ca4&amp;id=e8ed302308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_daf7dca406217473764651ca4_e8ed302308" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+    <div class="row">
+        <div class="small-8 small-centered large-6 large-centered social-container">         
 
             <a href="mailto:contact@empact.cc">
                 <img class="social" src="/img/social/mail.svg"></a>
@@ -226,9 +218,17 @@ $(document).ready(function(){
 });
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115478295-1"></script>
 <script>
-//google analytics here
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115478295-1');
 </script>
+
+
 
 
   </body>
